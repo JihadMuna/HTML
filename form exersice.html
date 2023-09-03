@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form&Input Exersice</title>
+</head>
+<body>
+   <h1>Create an Account</h1> 
+   <form action="process.php">
+    <div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email">
+    </div><br>
+    <div>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password">
+    </div><br>
+    <div>
+        <label for="age">Age:</label><br>
+        <select name="age" id="age">
+            <option value="00">Select Age</option>
+            <option value="01">10-20</option>
+            <option value="02">21-30</option>
+            <option value="03">31-40</option>
+            <option value="04">41-50</option>
+            <option value="05">51-60</option>
+            <option value="06">61-70</option>
+        </select>
+    </div><br>
+    <div>
+<label for="messege">Tell us a little about yourself:</label><br>
+<textarea name="messege" id="messege" cols="40" rows="5"></textarea>
+    </div><br>
+    <div>
+        <input type="checkbox" id="agree" value="agree">
+        <label for="agree">I agree to the <u style="color: blue;">terms of service</u></label><br>
+    </div><br>
+<div>
+    <input type="button" onclick="alert('Welcome!')" value="Sign up"><br>
+</div>
+
+   </form>
+</body>
+</html>
