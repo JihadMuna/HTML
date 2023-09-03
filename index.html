@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markup</title>
+</head>
+<body>
+    <!--headings-->
+   <h1>Welcome to my website</h1> 
+   <h2>Heading 2</h2>
+   <h3>Heading 3</h3>
+   <h4>Heading 4</h4>
+   <h5>Heading 5</h5>
+   <h6>Heading 6</h6>
+   
+   <!--paragraph-->
+   <p>Lorem <strong> dolor sit amet consectetur adipisicing elit.</strong> Sed veritatis id quasi,<em> recusandae laudantium nam</em> labore ad perspiciatis quidem facilis iure unde earum asperiores dolorem, deserunt incidunt ex aut atque illo sint ea molestiae, nisi ullam nostrum. Omnis dignissimos provident exercitationem minus rem? Esse commodi ad amet minima temporibus officia perspiciatis quod eius odit at totam optio recusandae in voluptatem eum saepe impedit obcaecati, ullam excepturi unde quaerat voluptate. Eum dolores sequi quod in, aut harum! Libero reprehenderit hic ipsam vel nemo sapiente error neque esse, labore, ullam, natus dolor voluptatibus eos debitis deleniti suscipit officiis fuga quisquam minima assumenda.</p>
+   
+   <!--Some Links-->
+<p>
+    <a href="www.google.com">Click For Google</a>
+    <br>
+    <a href="www.facebook.com">Click For Facebook</a>
+    <br>
+<a href="www.youtube.com">Click for Youtube</a>
+</p>
+
+<!--Local Image-->
+    <img src="/Images/gfx100s_sample_04_thum-1.jpg" alt="My Image"width=200>
+    <br>
+<!--Remote Image-->
+<img src="https://images.unsplash.com/photo-1519068737630-e5db30e12e42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="My Image2"width=200>
+
+<!--Unorderd List for a list without numbers-->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <!--Ordered List For listst with numbers-->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <!--Nested List to put a sublists inside mainlists-->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul>
+            <li>Nested Item 1</li>
+            <li>Nested Item 2</li>
+        </ul>
+        <li>Item 3</li>
+    </ul>
+
+    <!--Tables For arranging informations-->
+<table>
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jihad</td>
+            <td>Muna</td>
+            <td>jojo.muna.2019@gmail.com</td>
+        </tr>
+        <tr>
+            <td>May</td>
+            <td>Karam</td>
+            <td>Mayk@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Alaa</td>
+            <td>Hussein</td>
+            <td>Alaah@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<!--Forms: which is to let user input information-->
+<form action="process.php">
+<div>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+</div> <br>
+<div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+</div> <br>
+<div>
+    <label for="messege">Messege:</label>
+    <br>
+    <textarea name="messege" id="messege" cols="50" rows="5"></textarea>
+</div> <br>
+<div>
+    <label for="Sex">Sex:</label>
+    <select name="sex" id="sex">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+</div> <br>
+<div>
+    <label for="age">Age:</label>
+    <input type="age" name="age" id="age">
+</div> <br>
+<div>
+    <label for="birthdate">Birthdate:</label><br>
+    <input type="date" name="birthdate" id="birthdate">
+</div>
+</form>
+
+</body>
+</html>
