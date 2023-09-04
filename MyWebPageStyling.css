@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(249, 223, 227);
+}
+
+.welcome {
+    font-style: italic;
+}
+
+#id {
+    color: deeppink;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#heart {
+    color: red;
+    font-size: large;
+}
+
+#h2 {
+    font-family: "Sofia", sans-serif;
+}
+
+.p1 {
+    font-family: "Trirong", serif;
+}
+
+.p2 {
+    font-family: "Trirong", serif;
+}
+
+#facebook {
+    color: blue;
+}
+
+#instagram {
+    color:blueviolet;
+}
