@@ -1,0 +1,16 @@
+.Rbtn {
+
+font-size: 10px;
+padding: 10px 20px;
+}
+
+#Rbtn1 {
+background-color:rgb(34, 128, 251) ;
+border: none;
+}
+
+#Rbtn2 {
+background-color:rgb(31, 169, 65) ;
+border: none;
+border-radius: 10px;
+}
