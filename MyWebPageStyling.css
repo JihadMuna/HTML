@@ -1,9 +1,23 @@
-.profile-picture {
-    width: 100px;
+
+.container {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(249, 223, 227);
+    border:2px solid black;
+    border-radius: 20px;
 }
 
-body {
-    background-color: rgb(249, 223, 227);
+main {
+   text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    margin: auto;
+    display: block;
+    border: 1px solid black;
 }
 
 .welcome {
@@ -31,6 +45,10 @@ body {
 
 .p2 {
     font-family: "Trirong", serif;
+}
+
+h4 {
+   margin-left: 20px;
 }
 
 #facebook {
