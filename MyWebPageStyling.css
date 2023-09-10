@@ -1,54 +1,113 @@
 
-.container {
-    width: 500px;
-    height: 600px;
-    margin: auto;
-    padding: 20px;
+/* Home Page Styline*/
+body {
+    margin: 0;
     background-color: rgb(249, 223, 227);
-    border:2px solid black;
-    border-radius: 20px;
 }
 
-main {
-   text-align: center;
+.navbar {
+    list-style: none;
+   margin:0 ;
+    padding: 2%;
+    background: black ;
+    overflow:auto;
 }
 
-.profile-picture {
-    width: 120px;
-    margin: auto;
-    display: block;
-    border: 1px solid black;
-}
-
-.welcome {
-    font-style: italic;
-}
-
-#id {
-    color: deeppink;
-    font-weight: bold;
-    font-style: normal;
-}
-
-#heart {
-    color: red;
+.navbar li {
+    float: left;
+    display: inline;
     font-size: large;
+    padding: 1%;
 }
 
-#h2 {
+.navbar li a {
+    color: white;
+    padding: 15px 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 80, 223);
+}
+.Home {
+    margin: 2%;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .profile-picture {
+     width: 120px;
+     margin: auto;
+     display: block;
+     border: 1px solid black;
+ }
+ 
+#p1 {
+     font-style: italic;
+    font-size: xx-large;
+}
+ 
+ #id {
+     color: deeppink;
+     font-weight: bold;
+     font-style: normal;
+     font-size: xx-large;
+ }
+ 
+ #heart {
+     color: red;
+     font-size: x-large;
+ }
+
+ #p2 {
     font-family: "Sofia", sans-serif;
+    font-size: x-large;
+ }
+
+/*About Me Page Styling*/
+.AboutMe {
+font-family: "Trirong", serif;
+   float: left;
+   margin: 20%;
+   font-size: large;
 }
 
-.p1 {
-    font-family: "Trirong", serif;
+.btn {
+    background-color:#327ef8 ;
+    color: white;
+    background-origin: none;
+    font-size: medium;
+    padding: 2px 2px;
+    cursor: pointer;
 }
 
-.p2 {
-    font-family: "Trirong", serif;
+.btn:hover {
+background-color: #66a0fd ;
+color: #f4f4f4;
+} 
+
+
+/*Contact Me Page Styling*/
+.ContactMe {
+    margin: 2%;
+    padding: 10%;
+    text-align: center;
+    font-size: x-large;
 }
 
-h4 {
-   margin-left: 20px;
+header {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
 }
 
 #facebook {
