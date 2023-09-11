@@ -2,15 +2,15 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 700px;
-    margin:auto;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     line-height: 1.4em;
+}
+
+.container {
+    width: 700px;
+    margin:auto;
 }
 
 .box {
@@ -57,3 +57,14 @@ padding-right: 10px;
     padding-top: 5px;
 }
 
+@media(max-width:500px) {
+  #mbox {
+    width: 100%;
+  } 
+  #sbox {
+    display:none;
+  } 
+  .container {
+    height: 500px;
+  }
+}
