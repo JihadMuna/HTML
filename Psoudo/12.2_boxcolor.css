@@ -1,0 +1,14 @@
+.parent-box {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.parent-box::after {
+background-color: purple;
+position: absolute;
+content: "";
+width: 50%;
+height: 100%;
+}
