@@ -1,0 +1,185 @@
+body {
+background-color: lightgray;
+}
+.container {
+    width:400px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+justify-content: space-around;
+    }
+
+.button {
+    border: 2px solid black;
+    font: 15px black bold; 
+    background-color: inherit;
+    }
+
+/* TranslateY Button */
+#btn1 {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+#btn1::after {
+    content: "Cool !";
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+}
+#btn1:hover:after {
+    content: "Cool !";
+    transform: translate(0,0);
+}
+
+/* TranslateX Button */
+
+#btn2 {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+#btn2::after {
+    content: "";
+    font: 15px black bold; 
+    width: 120px;
+    height: 50px;
+    background: blue;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+    transition: all 1s ease-in-out;
+    z-index: -10;
+}
+#btn2:hover:after {
+    content: "";
+    background-color: blue;
+    transform: translate(0);
+}
+
+/* Rotate Button*/
+
+#btn3 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+#btn3::after {
+    content: "";
+    font: 15px black bold; 
+    width: 240px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-end;
+    transform: rotate(90deg);
+    transition: all 1s ease-in-out;
+    translate: -80px -0px;
+    padding-right: 20%;
+    z-index: -10;
+}
+#btn3:hover:after {
+    content: "";
+    background-color: yellow;
+    transform: rotate(0);
+}
+
+/* Scale Button */
+
+#btn4 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+#btn4::after {
+    content: "Scale";
+    font: 15px black bold; 
+    width: 100px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transform: Scale(0);
+    transition: all 1s;
+}
+#btn4:hover:after {
+    content: "Scale";
+    background-color: black;
+    transform: scale(3);
+}
+
+/* Skew Button */
+
+#btn5 {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+#btn5::after {
+    content: "Skew";
+    font: 20px black bold; 
+    width: 100px;
+    height: 50px;
+    background-color:fuchsia;
+    color:white;
+    text-align: center;
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transform: Skew(0,45deg);
+    transition: all 1s ease-in-out;
+}
+#btn5:hover:after {
+    content: "Skew";
+    display: block;
+    background-color: fuchsia;
+    animation: Skew 1s alternate-reverse infinite;
+}
+@keyframes Skew{
+    0%{
+        transform: skew(0);  
+    }
+  50%{
+        transform: skew(50deg);  
+    }
+   100%{
+        transform: skew(90deg);  
+    }
+}
