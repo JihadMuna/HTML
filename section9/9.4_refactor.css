@@ -1,0 +1,210 @@
+
+/* Home Page Styline*/
+body {
+    margin: 0;
+    background-color: rgb(249, 223, 227);
+}
+
+.navbar {
+    list-style: none;
+   margin:0 ;
+    padding: 2%;
+    background: black ;
+    overflow:auto;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.navbar li a {
+    color: white;
+    padding: 15px 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 80, 223);
+}
+.Home {
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .profile-picture {
+     width: 250px;
+     margin: auto;
+     display: block;
+     border: 1px solid black;
+ }
+ 
+#p1 {
+     font-style: italic;
+    font-size: 40px;
+}
+ 
+ #id {
+     color: deeppink;
+     font-weight: bold;
+     font-style: normal;
+     font-size: 50px;
+ }
+ 
+ #heart {
+     color: red;
+     font-size: x-large;
+ }
+
+ #p2 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+ }
+
+/*About Me Page Styling*/
+.AboutMe {
+font-family: "Trirong", serif;
+   float: left;
+   margin: 20%;
+   font-size: 30px;
+}
+
+.btn {
+    background-color:#327ef8 ;
+    color: white;
+    background-origin: none;
+    font-size: 20px;
+    padding: 2px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+background-color: #66a0fd ;
+color: #f4f4f4;
+} 
+
+
+/*Contact Me Page Styling*/
+.ContactMe {
+    margin: 2%;
+    padding: 10%;
+    text-align: center;
+    font-size: 40px;
+}
+
+header {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+#facebook {
+    color: blue;
+}
+
+#instagram {
+    color:blueviolet;
+}
+/* Widescreen */
+@media(min-width:1201px){
+    .navbar li {
+        font-size: 150%;
+}
+.profile-picture{
+    width: 270px;
+}
+#p1 {
+    font: size 50px;
+}
+#p2 {
+    font-size: 40px;
+}
+#id {
+    font-size:55px;
+}
+}
+    
+/* Normal */
+@media(min-width:769) and (max-width:1200px) {
+    .navbar li {
+font-size: 30px;
+    }
+    .profile-picture{
+        width: 200px;
+    }
+    #p1 {
+        font-size:25px;
+    }
+    #id {
+        font-size:20px;
+    }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width:768px) {
+    .navbar li {
+font-size: 80%;
+    }
+    .profile-picture{
+        width: 150px;
+    }
+    #p1 {
+        font-size:25px;
+    }
+    #p2 {
+        font-size:20px;
+    }
+    #id {
+        font-size:30px;
+    }
+}
+
+/* Smartphones */
+@media(max-width:500px) {
+    .navbar li {
+        font-size:50%;
+    }
+    .profile-picture{
+        width: 100px;
+    }
+    #p1 {
+        font-size:20px;
+    }
+    #p2 {
+        font-size:15px;
+    }
+    #id {
+        font-size:25px;
+    }
+}
+
+/* Landscape */
+@media (max-height:500px) {
+    .navbar li {
+font-size: 25px;
+    }
+    .profile-picture{
+        width: 100px;
+    }
+    #p1 {
+        font-size:40px;
+    }
+    #p2 {
+        font-size:30px;
+    }
+    #id {
+        font-size:45px;
+    }
+}

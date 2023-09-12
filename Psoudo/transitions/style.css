@@ -1,0 +1,21 @@
+.text1 {
+    background-color: palevioletred;
+    color: white;
+    font-size: large;
+    width: 150px;
+    height: 30px;
+}
+.text2{
+    background-color:rgb(251, 251, 65);
+    color: white;
+    font-size: medium;
+    width: 150px;
+    height: 20px;
+}
+.text3 {
+    background-color:lightgreen;
+    color: white;
+    font-size: small;
+    width: 150px;
+    height: 20px;
+}
