@@ -1,0 +1,213 @@
+
+/* Home Page Styline*/
+html {
+    font-size: 30px;
+}
+body {
+    margin: 0;
+    background-color: rgb(249, 223, 227);
+}
+
+.navbar {
+    list-style: none;
+   margin:0 ;
+    padding: 2%;
+    background: black ;
+    overflow:auto;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    font-size: 1em;
+    padding: 1%;
+}
+
+.navbar li a {
+    color: white;
+    padding: 15px 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(255, 80, 223);
+}
+.Home {
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .profile-picture {
+     width: 250px;
+     margin: auto;
+     display: block;
+     border: 1px solid black;
+ }
+ 
+#p1 {
+     font-style: italic;
+    font-size: 2em;
+}
+ 
+ #id {
+     color: deeppink;
+     font-weight: bold;
+     font-style: normal;
+     font-size: 2.5em;
+ }
+ 
+ #heart {
+     color: red;
+     font-size: x-large;
+ }
+
+ #p2 {
+    font-family: "Sofia", sans-serif;
+    font-size: 1.5em;
+ }
+
+/*About Me Page Styling*/
+.AboutMe {
+font-family: "Trirong", serif;
+   float: left;
+   margin: 20%;
+   font-size: 1.5em;
+}
+
+.btn {
+    background-color:#327ef8 ;
+    color: white;
+    background-origin: none;
+    font-size: 1em;
+    padding: 2px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+background-color: #66a0fd ;
+color: #f4f4f4;
+} 
+
+
+/*Contact Me Page Styling*/
+.ContactMe {
+    margin: 2%;
+    padding: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+#facebook {
+    color: blue;
+}
+
+#instagram {
+    color:blueviolet;
+}
+/* Widescreen */
+@media(min-width:1201px){
+    .navbar li {
+        font-size: 150%;
+}
+.profile-picture{
+    width: 270px;
+}
+#p1 {
+    font: size 120%;
+}
+#p2 {
+    font-size: 120%;
+}
+#id {
+    font-size:120%;
+}
+}
+    
+/* Normal */
+@media(min-width:769) and (max-width:1200px) {
+    .navbar li {
+font-size: 100%;
+    }
+    .profile-picture{
+        width: 100%;
+    }
+    #p1 {
+        font-size:100%;
+    }
+    #id {
+        font-size:100%;
+    }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width:768px) {
+    .navbar li {
+font-size: 80%;
+    }
+    .profile-picture{
+        width: 80%;
+    }
+    #p1 {
+        font-size:80%;
+    }
+    #p2 {
+        font-size:80%;
+    }
+    #id {
+        font-size:80%;
+    }
+}
+
+/* Smartphones */
+@media(max-width:500px) {
+    .navbar li {
+        font-size:50%;
+    }
+    .profile-picture{
+        width: 50%;
+    }
+    #p1 {
+        font-size:50%;
+    }
+    #p2 {
+        font-size:50%;
+    }
+    #id {
+        font-size:50%;
+    }
+}
+
+/* Landscape */
+@media (max-height:500px) {
+    .navbar li {
+font-size: 110%;
+    }
+    .profile-picture{
+        width:110%;
+    }
+    #p1 {
+        font-size:110%;
+    }
+    #p2 {
+        font-size:110%;
+    }
+    #id {
+        font-size:110%;
+    }
+}
