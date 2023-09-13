@@ -1,0 +1,77 @@
+/* Desktop */
+.container {
+    max-width: 500px;
+    max-height:fit-content;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'sidebar content content sidebar2'
+    'sidebar content content sidebar2'
+    'footer footer footer footer'
+    ;
+    grid-gap: 10px;
+}
+.box {
+    background-color: gray;
+    padding:9px;
+    color: white;
+    font: 12px bold;
+    border-radius: 15px;
+}
+.header {
+    grid-area: header;
+    background-color: rgb(231, 62, 62);
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(65, 65, 177);
+}
+.content {
+    grid-area: content;
+    background-color: rgb(47, 123, 47);
+}
+.sidebar2 {
+    grid-area: sidebar2;
+    background-color: rgb(121, 42, 121);
+}
+.footer {
+    grid-area: footer;
+    background-color: rgb(212, 212, 2);
+}
+/* Talet */
+@media(max-width:769px){
+    .container {
+        max-width: 300px;
+        max-height:fit-content;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-areas: 
+        'header header header'
+        'sidebar content content'
+        'sidebar2 sidebar2 sidebar2'
+        'footer footer footer'
+        ;
+        grid-gap: 10px;
+    }
+}
+/* Mobile */
+@media(max-width:500px){
+    .container {
+        max-width: 200px;
+        max-height:fit-content;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'sidebar'
+        'content'
+        'sidebar2'
+        'footer'
+        ;
+        grid-gap: 10px;
+    }
+}
